@@ -1,0 +1,96 @@
+.jumbotron jumbotron-fluid{
+    color: lightcyan;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-top: 200px;
+
+    
+}
+
+.carousel-inner{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-inner image{
+    size: 50%;
+}
+
+
+.navbar-nav{
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.container p-5 my-5 border{
+    color: blueviolet;
+}
+
+
+.shop-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card{
+
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card button{
+
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+background-color: black;
+}
+
+
+.price{
+color: grey;
+font-size: 22px;
+}
+
+.card button:hover{
+
+    opacity: 0.7;
+}
+
+.modal-container > div > img {
+height: 120px;
+width: 120px;
+
+}
+.total-content{
+
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* eliminar boton de producto */
+
+.delete-product{
+cursor: pointer;
+
+}
